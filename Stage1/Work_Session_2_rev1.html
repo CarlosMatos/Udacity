@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+	<!--
+	This is the third and last project I am supposed to submit for feedback by the monitors of the Intro to Programing nanodegree, Stage 1.
+	Author: Carlos Matos
+	Date: 20th, Oct, 2016
+	-->
+	<html lang= "en-US">
+	<head>
+	<meta charset="utf-8">
+	<title>HTML Carlos Matos' Notes</title>
+	<link rel="stylesheet" href="Work_Session_2.css">
+	</head>
+
+	<body style="background-color:#003459; font-family: verdana;">
+	<h1 style="color: white; text-align: center"> My Notes on HTML - What I have learned by now!</h1>
+	<!-- Because these two styles are applied just once in this HTML page, I decided to indicate it here instead to write them in the CSS file. In CSS file I wrote only the styles that used more than once to avoid code repetition. This is especially important for this h1 tag. I wrote a general style for h1 in CSS file, but I would like to have this one different from all others, then I wrote the style in line with the tag code because in this way it became more specific than the general style in CSS. -->
+	
+
+	<div style="background-color:#007EA7;color:white;margin:20px;padding:20px;">
+		  <h3>WARNING</h3>
+	  <p style="text-align: center;">
+	    This is my first HTML project, so be prepared for strong emotions.&#46;&#46; any way, everybody has a first time in life.&#46;&#46; :) 
+	  </p>
+	</div> <!-- ends Warning -->
+	<!-- As the previou ones, because these two styles are applied just once in this HTML page, I decided to indicate it here instead to write them in the CSS file. In CSS file I wrote only the styles that used more than once to avoid code repetition. -->
+	
+	<div class="chapter"> <!-- Begining Lesson 1 -->
+	<!-- Here we have a style that will be repeated along the HTML page, then I wrote it in the CSS file -->
+	
+		<h2>Lesson 1 - HTML definition</h2> <!-- h2 tag has a general style defined in CSS file-->
+    	<div>
+	    	<h3> HTML - What animal is it?</h3> <!-- h3 tag has a general style defined in CSS file-->
+	      	<div>
+	        	<p>
+		        HTML is the basis for most of the WEB pages. It is a set rules to put together different elements, like text, images, videos and links, to be showed in the PC screen throw a WEB browser. Or, in other words, HTML is a program code that a WEB browser is able to interpret in order to show some content.
+		        </p>
+	      	</div>
+	  	</div>
+	  	<div>    
+	    	<h3>A markup language.</h3>
+	      	<div>
+		        <p>
+				As every program code, HTML supposes a syntax to be followed by the programmer. Basically, HTML uses some special signs to instruct the browser what type of effect it should apply to the content. Those signs are generically called tags and they have the format &lt;EFFECT&gt;. A tag, in general (there are exceptions) are used in pairs: an opening tag, &lt;EFFECT&gt;, placed at the beginning of the content telling to the browser how the content shall be presented, and a closing tag &lt;/EFFECT&gt; signaling to the browser were the effect applied finished. For instance, if one wants to write a piece of text in <b>bold style</b>, it should initiate the text with a special tag <b> &lt;b&gt; </b> and finalize it with <b> &lt;/b&gt;</b>. The text in between will be emphasized in bold style.
+		        </p>
+	      	</div>
+	  	</div>
+	  	<div>      
+		    <h3>Elements</h3>
+		    <div>
+			    <p>
+			    An Element in HTML is piece of code composed of a pair of tags and the content in between. The tags used in an Element will differentiate the way it is showed in the screen.
+			    </p>
+		    </div>
+	  	</div>
+	  	<div>
+	    	<h3>Attributes</h3>
+	    	<div>
+	      		<p>
+		        The opening tag can contain other items, called attributes. When the type of effect applied need more complements, those attributes will provide then. For instance, if we want to instruct that some text is a link to other page, we use the tag &lt;a&gt;, plus attributes telling the browser the direction it should appoint if the user click on the link. So
+				<br><br>
+				&lt;a href= www.outrapagina.com.br&gt; here goes the text that will be seen as a hyperlink&lt;/a&gt;
+				<br><br>
+				will transform the text <u>here goes the text that will be seen as a hyperlink</u> in a piece of text that one can click on it to accessthe URL www.outrapagina.com.br .
+				</p>
+	    	</div>
+	  	</div>
+	  	<div>
+	    	<h3>Not so clever machines, yet!</h3>
+	    	<div>
+	      		<p>
+	        	A computer does what you say to it to do. If it doesn’t do something in the way you would like to happen, the problem is with your code, not with the computer. So, writing a code is something that demands experience, tentative process and lots of patience.
+	      		</p>
+	    	</div>
+	  	</div>
+	</div> <!-- Ending Lesson 1 -->
+
+	<div class="chapter"> <!-- Begining Lesson 2 -->
+	  	<h2>Lesson 2: Using HTML to generate documents in a structured format</h2>
+	  	<div>
+	    	<h3>Does the HTML need to be structured to work?</h3>
+	    	<div>
+	      		<p>
+	        	In fact it doesn't, but to produce programs in a structured format helps the programmer and others to understand better and faster the logic built in.
+	      		</p>
+	    	</div>
+	  	</div>
+	  	<div>
+	    	<h3>The steps to structure a HTML program.</h3>
+	    	<div>
+	      		<p>
+	        	Since HTML are "boxes inside boxes", the first step is to identify on the document draft or scratch how many boxes one will need to build a HTML document and what is the hierarchy among them, or in other words, which box contains other boxes, being the box that enclose others having more hierarchy than those enclosed.
+	        	</p>
+	        	<p>
+	        	In the HTML syntax, some elements, like h, p, div, are used to delimit boxes of content. Those elements shall be used to implement the content boxes identified during the first step. And to highlight the hierarchy of the boxes, is a recommended practice to indent those elements, with the level of indentation corresponding to the level of hierarchy the box has in the overall structure. An example is the way how this text is formatted.
+	        	</p>
+	        	<p>
+	        	We can organize this text in boxes as:
+	        	</p>
+	        	<ol>
+	        		<li>one box for the whole document,</li>
+	        		<li>one box for each lesson title,</li>
+	        		<li>one box for each text paragraph title,</li>
+	        		<li>one box for text paragraph and</li>
+	        		<li>one box for this list</li>
+	        	</ol>
+	        	<p>
+	        	We can hierarchize these boxes in a decreasing order as: 1 with higher hierarchy, 2 lower, 3 lower and 4 and 5 at the same hierarchy being the lowest of them.
+	        	</p>
+	        </div>
+	    </div>
+	</div> <!-- Ending Lesson 2 -->
+
+	<div class="chapter"> <!-- Begining Lesson 3 -->
+		<h2>Lesson 3: Adding style to the HTML page</h2>
+		<div>
+			<h3>Do not repeat, do not repeat, do not repeat, and, once more, do not repeat!</h3>
+			<div>
+	        	<p>
+        		One important point during the coding process is to avoid repeating code. Some reasons to avoid it are: it enlarges the code size unnecessarily, if you need to make some adjustment in the portion of the code that is repeated there are great possibility you forget to adjust all of them, it becames the code more difficulty to understand.
+        		</p>
+        	</div>
+        </div>
+        <div>
+        	<h3>CSS</h3>
+        	<div class="htmlcss_symbol"> <!-- Here I put a figure side by side with a text box-->
+        		<div style="width: 80%;height: 100%">
+        			<div> <!-- class="form1" -->
+        				<img src="http://www.e-web-solutions.net/userfiles/images/web-design-services-html-css.jpg" alt="HTML & CSS logo" class="form1"> <!-- style="width: 100%;height: 100%;"> -->
+      				</div>
+      			</div>
+      			<div  class="form2"> 
+      			<p>
+        		The style of the HTML sheet can be defined inside de HTML itself, but it isn't a good practice. The more usual and accepted practice is to write the effects to be applied in the HTML page in a CSS (Cascading Style Sheets) file. The term cascading means that the more specific style rule defined for an element in one of the style sheets (there may be several of them) will be applied for all same elements in whole HTML page.
+        		</p>
+        		<p>
+				This file must be mentioned in the &lt;head&gt; element, in HTML file, positioned before the &lt;body&gt;, using the tag &lt;link&gt;.
+				</p>
+				</div>
+			</div>	
+			<div>	
+				<p>
+				CSS uses <b>selectors</b> to identify in what elements of the HTML is applied a specific style.
+				</p>
+				<p>
+				An illustration showing how the CSS file affects the HTML can be seen below.
+				</p>
+			</div>
+			<div class="form1">
+				<img src="http://webstyleguide.com/wsg3/figures/7-page-design/7-2-700.jpg" alt="HTML and CSS block representaion" style="width:100%; height:100%;">
+			</div>
+			
+		</div>
+	
+		<div>
+			<h3>Positioning Boxes</h3>
+			<div>
+				<p>
+				To have boxes one by side to the other, we can use the flex property. It is also important to make the HTML responsive to the different screen sizes. 
+				</p>
+			</div>
+		</div>
+	</div> <!-- Ending Lesson 3 -->
+	</body>
+	</html>
